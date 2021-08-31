@@ -1,0 +1,117 @@
+
+body{
+ margin: 0% !important;
+ padding: 0px !important;
+ 
+}
+
+h1 {
+  font-size: 55px; }
+  @media only screen and (max-width: 767px) {
+    h1 {
+      font-size: 25px; } 
+      .container{
+        width: 100%;
+      }
+    }
+
+
+@media (max-width: 766px) {
+  .carrusel_mobile{
+    display: none;
+  
+  }
+  .column2 {
+    margin-left: -15rem;
+    padding: 0px;
+    overflow: hidden
+  }
+  .column1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  footer{
+    padding-right: 0px !important;
+  }
+  .mobile{
+    display: none;
+  }
+}
+
+.padding{
+  padding: 10px;
+}
+
+p {
+  color: black; }
+
+/* .container-fluid {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin: 0px;
+  font-size: 55px;
+  font-style: italic;
+  font-family: tahoma; } */
+
+*{
+  margin: 0px;
+  padding: 0px;
+  ;
+}
+footer{
+  background: #202020;
+  color: white;
+  width: 100%;
+  padding-left: 1.5rem ;
+  padding-right: 15rem ;
+}
+.container-footer-all{
+  width: 100%;
+  max-width: 1200px;
+  margin: 0px;
+}
+.container-footer{
+  display: flex;
+}
+.column1{
+  width:100% ;
+  max-width: 600px;
+}
+.column1 h2{
+  font-size: 25px;
+  
+}
+.column1 p{
+  font-size: 14px;
+  color: white;
+}
+.column2 h1{
+  font-size: 22px;
+
+}
+.column2 .rowIcons{
+  margin-top: 20px;
+display: flex;
+margin-right: 0.8rem;
+}
+.column2 .rowIcons img{
+  width: 35px;
+  height: 36px;
+  margin-right: 0.8rem;
+}
+.txtArk{
+  float: center;
+  text-align: center;
+  
+}
+.column2{
+  margin-left: 25rem;
+  
+}
+
+/* .logo{
+  padding: 10px; margin: 10px; border: 2px solid black; float: right; width: 250px
+} */
